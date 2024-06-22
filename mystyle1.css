@@ -1,0 +1,85 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+main{
+    width: 100%;
+}
+.container-2{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 50px;
+    background: url(Contact\ Page\ Image.png);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: 100%;
+    width: 100%;
+}
+.container-left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 40%;
+    width: 100%;
+}
+.container-left-title h2{
+    font-weight: 600;
+    color: black;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+.container-left-title hr{
+    border: none;
+    width: 120px;
+    height: 5px;
+    background-color: black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.contact-inputs{
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: black;
+    padding-left: 25px;
+    font-weight: 500;
+    color: grey;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: darkgray;
+}
+.container-left textarea{
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 8px;
+}
+.contact-inputs:hover{
+    border: 2px solid black;
+}
+.contact-inputs::placeholder{
+    color: gray;
+}
+.container-left button{
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+    font-size: 16px;
+    color: white;
+    gap: 10px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(red,grey);
+    cursor: pointer;
+}
+button:hover{
+    border: 2px solid grey;
+}
+
+

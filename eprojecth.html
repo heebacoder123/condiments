@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css
+    ">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js
+    "></script>
+    
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mystyle.css">
+    <link rel="stylesheet" href="products.html">
+    <a rel="stylesheet" href="products.html">Products</a>
+
+    <title>Homepage</title>
+
+
+</head>
+<body>
+    <!-- Navbar -->
+    
+		<div style="padding-top: 20px; background-color: whitesmoke;" class="container-fluid px-md-5">
+			<div class="row justify-content-between">
+				<div class="col-md-8 order-md-last">
+					<div class="row">
+						<div class="col-md-6 text-center">
+							<a  class="navbar-brand" href="index.html">CONDIMENTS-N-SPICE<span>Bringing Flavor to Your Table</span></a>
+						</div>
+						<div class="col-md-6 d-md-flex justify-content-end mb-md-0 mb-3">
+							<form action="#" class="searchform order-lg-last">
+			          <div class="form-group d-flex">
+			            <input type="text" class="form-control pl-3" placeholder="Search">
+			            <button type="submit" placeholder="" class="form-control search"><span class="fa fa-search"></span></button>
+			          </div>
+			        </form>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 d-flex">
+					<div class="social-media">
+		    		<p class="mb-0 d-flex">
+		    			<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"><i class="sr-only">Facebook</i></span></a>
+		    			<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"><i class="sr-only">Twitter</i></span></a>
+		    			<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"><i class="sr-only">Instagram</i></span></a>
+		    			<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-dribbble"><i class="sr-only">Dribbble</i></span></a>
+		    		</p>
+	        </div>
+				</div>
+			</div>
+		</div>
+		<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container-fluid">
+	    
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="fa fa-bars"></span> Menu
+	      </button>
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav m-auto">
+	        	<li class="nav-item active"><a href="#" class="nav-link">Home</a></li>
+	        	<li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Page</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown04">
+              	<a class="dropdown-item" href="#">Page 1</a>
+                <a class="dropdown-item" href="#">Page 2</a>
+                <a class="dropdown-item" href="#">Page 3</a>
+                <a class="dropdown-item" href="#">Page 4</a>
+              </div>
+            </li>
+	        	<li class="nav-item"><a href="#" class="nav-link">products</a></li>
+	        	<li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+	          <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+    <!-- END nav -->
+
+    <!-- Hero Section -->
+
+    <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="bg section.png" class="d-block mx-lg-auto img-fluid" alt="Image" width="700" height="500" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Welcome to Condiments-n-Spice</h1>
+            <p class="lead">At Condiments-n-Spice, we're passionate about bringing you the finest selection of cooking oils, wheat flour, rice, and spices. From farm to table, we source the highest quality ingredients to enhance your culinary creations. Whether you're a seasoned chef or a home cook, our products are crafted to elevate your cooking experience and add a burst of flavor to every dish.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button type="button" class="btn btn-danger btn-lg px-4 me-md-2">Shop Now</button>
+              <button type="button" class="btn btn-outline-secondary btn-lg px-4">Learn More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+<!-- Products -->
+    
+
+
+
+
+<div class = "wrapper">
+    <div class = "category-filter">
+        <div class = "container">
+            <div class = "title">
+                <h1>Featured Products</h1>
+            </div>
+
+            <div class = "filter-btns">
+                <button type = "button" class = "filter-btn" id = "all">ALL</button>
+                <button type = "button" class = "filter-btn" id = "new">Spices</button>
+                <button type = "button" class = "filter-btn" id = "best-sellers">Oils</button>
+                <button type = "button" class = "filter-btn" id = "specials">Sauces</button>
+            </div>
+
+           
+
+            <div class = "filter-items">
+                <div class = "filter-item all new">
+                    <div class = "item-img">
+                        <img src = "salt1.jpg" alt = "Item image">
+                        
+                    </div>
+                    <div class = "item-info">
+                        <p>Salt  1Kg</p>
+                        <div>
+                           
+                            <span class = "new-price">Rs700</span>
+                        </div>
+                        <a href = "#" class ="add-btn">Add to Cart</a>
+                    </div>
+                </div>
+            
+                <div class = "filter-item all new">
+                    <div class = "item-img">
+                        <img src = "red2.jpg" alt = "Item image">
+                       
+                    </div>
+                    <div class = "item-info">
+                        <p>Red Chilli(powder)   1Kg</p>
+                        <div>
+                            
+                            <span class = "new-price">Rs1600</span>
+                        </div>
+                        <a href = "#" class ="add-btn">Add to Cart</a>
+                    </div>
+                </div>
+            
+                <div class = "filter-item all new">
+                    <div class = "item-img">
+                        <img src = "chilliflakes3.jpg" alt = "Item image">
+                       
+                    </div>
+                    <div class = "item-info">
+                        <p>Chilli flakes    1Kg</p>
+                        <div>
+                            
+                            <span class = "new-price">Rs1500</span>
+                        </div>
+                        <a href = "#" class ="add-btn">Add to Cart</a>
+                    </div>
+                </div>
+            
+                <div class = "filter-item all new">
+                    <div class = "item-img">
+                        <img src = "cumin4.jpg" alt = "Item image">
+                        
+                    </div>
+                    <div class = "item-info">
+                        <p>Cumin(powder)  1Kg</p>
+                        <div>
+                            
+                            <span class = "new-price">Rs1000</span>
+                        </div>
+                        <a href = "#" class ="add-btn">Add to Cart</a>
+                    </div>
+                </div>
+            
+                <div class = "filter-item all new">
+                    <div class = "item-img">
+                        <img src = "pepper5.jpg" alt = "Item image">
+                        
+                    </div>
+                    <div class = "item-info">
+                        <p>Black pepper(powder)  1Kg</p>
+                        <div>
+                            
+                            <span class = "new-price">Rs1400</span>
+                        </div>
+                        <a href = "#" class ="add-btn">Add to Cart</a>
+                    </div>
+                </div>
+            
+                <div class = "filter-item all new">
+                    <div class = "item-img">
+                        <img src = "tur6.webp" alt = "Item image">
+                        
+                    </div>
+                    <div class = "item-info">
+                        <p>Turmeric(powder)  1Kg</p>
+                        <div>
+                            
+                            <span class = "new-price">Rs1670</span>
+                        </div>
+                        <a href = "#" class ="add-btn">Add to Cart</a>
+                    </div>
+                </div>
+            
+                <div class = "filter-item all new">
+                    <div class = "item-img">
+                        <img src = "corian7.jpg">
+                       
+                    </div>
+                    <div class = "item-info">
+                        <p>Coriander(powder)  1Kg</p>
+                        <div>
+                            >
+                            <span class = "new-price">Rs800</span>
+                        </div>
+                        <a href = "#" class ="add-btn">Add to Cart</a>
+                    </div>
+                </div>
+            
+                <div class = "filter-item all new">
+                    <div class = "item-img">
+                        <img src = "cinnamon8.jpg" alt = "Item image">
+                       
+                    </div>
+                    <div class = "item-info">
+                        <p>Cinnamon(powder)  1Kg</p>
+                        <div>
+                            
+                            <span class = "new-price">Rs3000</span>
+                        </div>
+                        <a href = "#" class ="add-btn">Add to Cart</a>
+                    </div>
+                </div>
+            
+                <div class = "filter-item all best-sellers">
+                    <div class = "item-img">
+                        <img src = "vegoil1.jpg" alt = "Item image">
+                       
+                    </div>
+                    <div class = "item-info">
+                        <p>Vegetable oil 1Kg</p>
+                        <div>
+                           
+                            <span class = "new-price">Rs1600</span>
+                        </div>
+                        <a href = "#" class ="add-btn">Add to Cart</a>
+                    </div>
+                </div>
+            
+                <div class = "filter-item all best-sellers">
+                    <div class = "item-img">
+                        <img src = "oliveoil2.jpg" alt = "Item image">
+                        
+                    </div>
+                    <div class = "item-info">
+                        <p>Olive oil  1Kg</p>
+                        <div>
+                            
+                            <span class = "new-price">Rs2500</span>
+                        </div>
+                        <a href = "#" class ="add-btn">Add to Cart</a>
+                    </div>
+                </div>
+            
+                <div class = "filter-item all best-sellers">
+                    <div class = "item-img">
+                        <img src = "mustardoil3.jpg" alt = "Item image">
+                        
+                    </div>
+                    <div class = "item-info">
+                        <p>Mustard oil  1Kg</p>
+                        <div>
+                            
+                            <span class = "new-price">Rs2000</span>
+                        </div>
+                        <a href = "#" class ="add-btn">Add to Cart</a>
+                    </div>
+                </div>
+            
+                <div class = "filter-item all best-sellers">
+                    <div class = "item-img">
+                        <img src = "sunoil4.jpg" alt = "Item image">
+                        
+                    </div>
+                    <div class = "item-info">
+                        <p>Sunflower oil  1Kg</p>
+                        <div>
+                            
+                            <span class = "new-price">Rs3000</span>
+                        </div>
+                        <a href = "#" class ="add-btn">Add to Cart</a>
+                    </div>
+                </div>
+            
+            <br><br>
+            
+                <div class = "filter-item all best-sellers">
+                    <div class = "item-img">
+                        <img src = "almondoil5.jpg" alt = "Item image">
+                        
+                    </div>
+                    <div class = "item-info">
+                        <p>Almond oil  1Kg</p>
+                        <div>
+                            
+                            <span class = "new-price">Rs5000</span>
+                        </div>
+                        <a href = "#" class ="add-btn">Add to Cart</a>
+                    </div>
+                </div>
+            
+            
+                <div class = "filter-item all best-sellers">
+                    <div class = "item-img">
+                        <img src = "fenugreekoil6.webp" alt = "Item image">
+                        
+                    </div>
+                    <div class = "item-info">
+                        <p>Fenugreek oil  1Kg</p>
+                        <div>
+                            
+                            <span class = "new-price">Rs3000</span>
+                        </div>
+                        <a href = "#" class ="add-btn">Add to Cart</a>
+                    </div>
+                </div>         
+                
+                
+                <div class = "filter-item all best-sellers">
+                    <div class = "item-img">
+                        <img src = "blackcumin7.jpg" alt = "Item image">
+                        
+                    </div>
+                    <div class = "item-info">
+                        <p>Black Cumin oil  1Kg</p>
+                        <div>
+                            
+                            <span class = "new-price">Rs4000</span>
+                        </div>
+                        <a href = "#" class ="add-btn">Add to Cart</a>
+                    </div>
+                </div>
+            
+            
+                <div class = "filter-item all best-sellers">
+                    <div class = "item-img">
+                        <img src = "sesameoil8.jpg" alt = "Item image">
+                        
+                    </div>
+                    <div class = "item-info">
+                        <p>Sesame oil  1Kg</p>
+                        <div>
+                            
+                            <span class = "new-price">Rs5000</span>
+                        </div>
+                        <a href = "#" class ="add-btn">Add to Cart</a>
+                    </div>
+                </div>
+            <br><br>
+            
+                <div class = "filter-item all specials">
+                    <div class = "item-img">
+                        <img src = "sauce1.webp" alt = "Item image">
+                        
+                    </div>
+                    <div class = "item-info">
+                        <p>Chilli sauce  250ml</p>
+                        <div>
+                            
+                            <span class = "new-price">Rs500</span>
+                        </div>
+                        <a href = "#" class ="add-btn">Add to Cart</a>
+                    </div>
+                </div>
+            
+            
+                <div class = "filter-item all specials">
+                    <div class = "item-img">
+                        <img src = "sauce2.1.webp" alt = "Item image">
+                        
+                    </div>
+                    <div class = "item-info">
+                        <p>Soy sauce  250ml</p>
+                        <div>
+                            
+                            <span class = "new-price">Rs500</span>
+                        </div>
+                        <a href = "#" class ="add-btn">Add to Cart</a>
+                    </div>
+                </div>
+            
+            
+                <div class = "filter-item all specials">
+                    <div class = "item-img">
+                        <img src = "sauce3.webp" alt = "Item image">
+                        
+                    </div>
+                    <div class = "item-info">
+                        <p>Worcestershire sauce  250ml</p>
+                        <div>
+                            
+                            <span class = "new-price">Rs600</span>
+                        </div>
+                        <a href = "#" class ="add-btn">Add to Cart</a>
+                    </div>
+                </div>
+            
+                <div class = "filter-item all specials">
+                    <div class = "item-img">
+                        <img src = "sauce4.webp" alt = "Item image">
+                        
+                    </div>
+                    <div class = "item-info">
+                        <p>Mustard sauce  250ml</p>
+                        <div>
+                            
+                            <span class = "new-price">Rs300</span>
+                        </div>
+                        <a href = "#" class ="add-btn">Add to Cart</a>
+                    </div>
+                </div>
+            
+                <br><br>
+            
+                <div class = "filter-item all specials">
+                    <div class = "item-img">
+                        <img src = "sauce5.jpg" alt = "Item image">
+                        
+                    </div>
+                    <div class = "item-info">
+                        <p>Garlic sauce  250ml</p>
+                        <div>
+                            
+                            <span class = "new-price">Rs500</span>
+                        </div>
+                        <a href = "#" class ="add-btn">Add to Cart</a>
+                    </div>
+                </div>
+            
+                <div class = "filter-item all specials">
+                    <div class = "item-img">
+                        <img src = "sauce6.webp" alt = "Item image">
+                        
+                    </div>
+                    <div class = "item-info">
+                        <p>BBQ sauce  250ml</p>
+                        <div>
+                            
+                            <span class = "new-price">Rs700</span>
+                        </div>
+                        <a href = "#" class ="add-btn">Add to Cart</a>
+                    </div>
+                </div>
+            
+                <div class = "filter-item all specials">
+                    <div class = "item-img">
+                        <img src = "sauce7.webp" alt = "Item image">
+                        
+                    </div>
+                    <div class = "item-info">
+                        <p>Tomato sauce  250ml</p>
+                        <div>
+                            
+                            <span class = "new-price">Rs500</span>
+                        </div>
+                        <a href = "#" class ="add-btn">Add to Cart</a>
+                    </div>
+                </div>
+            
+                <div class = "filter-item all specials">
+                    <div class = "item-img">
+                        <img src = "sauce8.1.webp" alt = "Item image">
+                        
+                    </div>
+                    <div class = "item-info">
+                        <p>Cheese sauce  250ml</p>
+                        <div>
+                            
+                            <span class = "new-price">Rs1000</span>
+                        </div>
+                        <a href = "#" class ="add-btn">Add to Cart</a>
+                    </div>
+                </div>
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <footer class="py-5">
+      <div class="row">
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pages</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Products</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Contact</a></li>
+        
+          </ul>
+        </div>
+  
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pages</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Products</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Contact</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pages</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Products</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Contact</a></li>
+         
+          </ul>
+        </div>
+  
+        <div class="col-md-5 offset-md-1 mb-3">
+          <form>
+            <h5>Subscribe to our newsletter</h5>
+            <p>Monthly digest of what's new and exciting from us.</p>
+            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+              <label for="newsletter1" class="visually-hidden">Email address</label>
+              <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+              <button class="btn btn-primary" type="button">Subscribe</button>
+            </div>
+          </form>
+        </div>
+      </div>
+  
+      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+        <p>Copyright © 2024 Condiments-N-Spices, All rights reserved.</p>
+        <ul class="list-unstyled d-flex">
+          <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+          <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+          <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+
+
+
+<script src = "script.js"></script>
+</body>
+</html>
